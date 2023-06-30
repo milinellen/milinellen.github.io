@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+}
+body{
+    overflow: hidden;
+    height: 100%;
+    background: linear-gradient(135deg, rgb(245, 194, 203) 23%, rgba(185, 105, 119, 0.925) 100%); 
+}
+.porfolio {
+    display: flex;
+    padding: 5em;
+}
+.imgen {
+    margin-top: 0;
+    padding: 3em;
+}
+.img {
+    transition: transform .2s; 
+}
+.img:hover{
+    transform: scale(1.2);
+}
+.texto {
+    font-family: 'Geologica', sans-serif;
+    text-align: justify;
+    margin-top: 5em;
+}
+.logos {
+    display: flex;
+    margin-top: -15em;
+    margin-left: 45em;
+}
+.redes1 {
+    padding: 1em;
+}
+.redes2 {
+    padding: 1em;
+}
+

@@ -1,0 +1,144 @@
+/*------------------------------------BODY-------------------------------------*/
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color:rgb(255, 238, 255);
+}
+/*------------------------------------divanillos-------------------------------------*/
+.productosbody {
+    display: flex;
+}
+.anillos {
+    margin: 3em;
+    padding: 7em;
+    background-image: url(body/anillo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    text-align: center;
+}
+.aros {
+    margin: 3em;
+    padding: 7em;
+    background-image: url(body/Aros.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+/*----------h2-------*/
+h2{
+    font-family: 'Bridga Goldeni', sans-serif;
+    font-size: medium;
+    color:black;
+}
+.button {
+    background-color: #f1b6a7;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    font-family: 'Bridga Goldeni', sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {
+    opacity: 1;
+}
+/*--------------------------------------HEADER-----------------------------*/
+header{
+    background-color: #E9CFC2;
+    padding: -2em;
+}
+.header1 {
+    display: flex;
+}
+.logo img {
+    width: 170px;
+    height: 170px;
+}
+.logo{
+    margin-left: 23em; 
+}
+.carrito {
+    margin-left: 25em;
+    margin-top: 4em;
+}
+h1{
+    font-family:'Bridga Goldeni', sans-serif; 
+}
+ul{
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.clima {
+    margin:1em;
+    margin-top: 2em;
+}
+/*---------------------------------FOOTER---------------------------------*/
+footer{
+    background-color: #E9CFC2;
+    padding: 3em;
+    margin: 0;
+}
+.img1{ 
+    width: 10%;
+    height: 20%;
+    margin-right: 2%;
+}
+.img2{
+    margin-right: 2%;
+    width: 12%;
+    height: 22%;
+}
+a {
+    color: #774115;
+    text-decoration: none;
+}
+.contactos {
+    display: flex;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+.direccion {
+    margin-left: -3em;
+}
+.redes {
+    margin-left: 10em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.redes1 a {
+    align-items: center;
+}
+.logos {
+    margin-left: -2.5em;
+}
+.contacto {
+    margin-left: 10em;
+}
+.porfolio {
+    margin-top: 1em;
+    margin-left: 77em;
+}
+.porfolio img {
+    width: 20px;
+    height: 20px;
+}

@@ -11,7 +11,7 @@ body{
 .anillos {
     margin: 3em;
     padding: 7em;
-    background-image: url(body/anillo.jpeg);
+    background-image: url(anillo.jpeg);
     background-repeat: no-repeat;
     background-size: cover ;
     text-align: center;
@@ -19,7 +19,7 @@ body{
 .aros {
     margin: 3em;
     padding: 7em;
-    background-image: url(body/Aros.jpeg);
+    background-image: url(Aros.jpeg);
     background-repeat:no-repeat;
     background-size: cover;
     text-align: center;

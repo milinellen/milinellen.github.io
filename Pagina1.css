@@ -1,3 +1,21 @@
+/*escritorio*/
+@media (min-width: 1199.98px){
+    body{
+        background: rgb(255, 238, 255);
+    }
+}
+/*tablet*/ 
+@media (max-width: 576px) and (orientation: Portrait){
+    body{
+        background: rgb(255, 238, 255);
+    }
+}
+/*movil*/ 
+@media (max-width: 575.98px) and (orientation: Portrait){
+    body{
+        background: rgb(255, 238, 255);
+    }
+}
 /*------------------------------------BODY-------------------------------------*/
 body{
     margin: 0;

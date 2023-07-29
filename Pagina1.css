@@ -1,26 +1,9 @@
-/*escritorio*/
-@media (min-width: 1199.98px){
-    body{
-        background: rgb(255, 238, 255);
-    }
-}
-/*tablet*/ 
-@media (max-width: 576px) and (orientation: Portrait){
-    body{
-        background: rgb(255, 238, 255);
-    }
-}
-/*movil*/ 
-@media (max-width: 575.98px) and (orientation: Portrait){
-    body{
-        background: rgb(255, 238, 255);
-    }
-}
 /*------------------------------------BODY-------------------------------------*/
 body{
     margin: 0;
     overflow-x: hidden;
     background-color:rgb(255, 238, 255);
+    width: 100%;
 }
 .contador {
     margin-left: 81em;
@@ -73,9 +56,11 @@ h2{
 header{
     background-color: #E9CFC2;
     padding: -2em;
+    width: 100%;
 }
 .header1 {
     display: flex;
+    width: 100%;
 }
 .logo img {
     width: 170px;
@@ -118,6 +103,7 @@ footer{
     background-color: #E9CFC2;
     padding: 3em;
     margin: 0;
+    width: 100%;
 }
 .img1{ 
     width: 10%;
@@ -137,6 +123,7 @@ a {
     display: flex;
     margin-right: 5em;
     margin-left: 5em;
+    width: 100%;
 }
 .direccion {
     margin-left: -3em;
@@ -145,9 +132,6 @@ a {
     margin-left: 10em;
     padding-left: 7em;
     padding-right: 7em;
-}
-.redes1 a {
-    align-items: center;
 }
 .logos {
     margin-left: -2.5em;

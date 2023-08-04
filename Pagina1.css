@@ -52,6 +52,10 @@ h2{
 .button:hover {
     opacity: 1;
 }
+.productosbody a:hover {
+    color: black;
+}
+
 /*--------------------------------------HEADER-----------------------------*/
 header{
     background-color: #E9CFC2;

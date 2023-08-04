@@ -57,6 +57,7 @@ header{
     background-color: #E9CFC2;
     padding: -2em;
     width: 100%;
+    display: block;
 }
 .header1 {
     display: flex;

@@ -1,0 +1,124 @@
+
+header{
+    background-color: #E9CFC2;
+    padding: -2em;
+}
+.header1 {
+    display: flex;
+}
+.logo img {
+    width: 250px;
+    height: 100px;
+}
+.logo{
+    margin-left: 550px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carrito {
+    margin-left: 480px;
+    margin-top: 60px;
+}
+h1{
+    font-family:'Bridga Goldeni', sans-serif;
+    text-align: center;
+    margin-top: 2em;
+}
+.nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+    padding: 0.5em;
+    margin: 0;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    transition: .5s;
+}
+a:hover{
+    color: #f3b9af;
+}
+/* ------------------------ BODY - ------------------------------*/
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color:rgb(255, 238, 255);
+}
+.conjunto {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.foto1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    padding: 5px;
+    align-items: center;
+}
+.i1 {
+    transition: transform .2s; 
+    padding-right: 20px;
+    padding-left: 20px ;
+}
+.i1:hover{
+    transform: scale(1.2);
+}
+.parrafo{
+    align-items: center;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+p{
+    font-family: 'Achemost', sans-serif;
+}
+/*---------------------------------FOOTER---------------------------------*/
+footer{
+    background-color: #E9CFC2;
+    padding: 3em;
+    margin: 0;
+    width: 100%;
+}
+.img1{ 
+    width: 10%;
+    height: 20%;
+    margin-right: 2%;
+}
+.img2{
+    margin-right: 2%;
+    width: 12%;
+    height: 22%;
+}
+a {
+    color: #774115;
+    text-decoration: none;
+}
+.contactos {
+    display: flex;
+    margin-right: 5em;
+    margin-left: 5em;
+    width: 100%;
+}
+.direccion {
+    text-align: center;
+    margin-left: -3em;
+}
+.redes {
+    margin-left: 10em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.logos {
+    margin-left: -2.5em;
+}
+.contacto {
+    text-align: center;
+    margin-left: 5em;
+}

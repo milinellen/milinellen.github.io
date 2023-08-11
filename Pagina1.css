@@ -15,7 +15,8 @@ body{
 .anillos {
     margin: 3em;
     padding: 7em;
-    background-image: url(anillo.jpg);
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("anillo.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
     text-align: center;
@@ -23,16 +24,26 @@ body{
 .aros {
     margin: 3em;
     padding: 7em;
-    background-image: url(Aros.jpg);
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("Aros.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     text-align: center;
 }
+.bandolera {
+    margin: 3em;
+    padding: 5em;
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("banver.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    text-align: center;
+}
 /*----------h2-------*/
-h2{
-    font-family: 'Bridga Goldeni', sans-serif;
+h1{
+    font-family: 'SAEGATHE', sans-serif;
     font-size: medium;
-    color:black;
+    color:#ffc5b6;
 }
 .button {
     background-color: #f1b6a7;
@@ -134,6 +145,7 @@ a {
     width: 100%;
 }
 .direccion {
+    text-align: center;
     margin-left: -3em;
 }
 .redes {
@@ -145,7 +157,8 @@ a {
     margin-left: -2.5em;
 }
 .contacto {
-    margin-left: 10em;
+    text-align: center;
+    margin-left: 5em;
 }
 .porfolio {
     margin-top: 1em;

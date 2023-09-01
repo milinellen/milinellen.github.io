@@ -51,11 +51,11 @@ body{
     background-color:rgb(255, 238, 255);
 }
 /* ------------------------ Fila 1- ------------------------------*/
-.Arosf1 {
+.mochif1 {
     display: flex;
     margin: 1em;
 }
-.alasstras {
+.mochi1 {
     margin: 3em;
     margin-top: 4em;
     text-align: center;
@@ -63,8 +63,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-
-.argolladiamente {
+.mochi2 {
     text-align: center;
     margin: 3em;
     margin-left: 4em;
@@ -73,7 +72,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.brillorosa {
+.mochi3 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -81,7 +80,7 @@ body{
     background-color:#f3b9af;
     line-height: 5px;
 }
-.stras{
+.mochi4 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -95,7 +94,7 @@ body{
     margin: 1em;
     margin-top: -2em;
 }
-.argollita {
+.mochi5 {
     margin: 3em;
     margin-top: 4em;
     text-align: center;
@@ -103,7 +102,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.flor {
+.mochi6{
     text-align: center;
     margin: 3em;
     margin-left: 4em;
@@ -112,7 +111,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.hojasstras {
+.mochi7 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -120,7 +119,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.laurel {
+.mochi8 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -134,7 +133,7 @@ body{
     margin: 1em;
     margin-top: -2em;
 }
-.chapitacorazo {
+.mochi9 {
     margin: 3em;
     margin-top: 4em;
     text-align: center;
@@ -142,7 +141,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.rayo {
+.mochi10 {
     text-align: center;
     margin: 3em;
     margin-left: 4em;
@@ -151,7 +150,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.colores{
+.mochi11 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -159,7 +158,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.ojoturco{
+.mochi12 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;

@@ -96,9 +96,22 @@ footer{
     width: 12%;
     height: 22%;
 }
+.redes a{
+    padding: 3px;
+}
+.redes1{
+    display: inline-flex;
+}
+.redes2{
+    display: flex;
+    align-items: center;
+}
 a {
     color: #774115;
     text-decoration: none;
+}
+.redes a:hover{
+    color: #f35034;
 }
 .contactos {
     display: flex;

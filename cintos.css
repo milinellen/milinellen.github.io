@@ -1,4 +1,4 @@
-/*---------------------------------HEADER-------------------------------*/
+/*----------------------HEADER------------------*/
 header{
     background-color: #E9CFC2;
     padding: -2em;
@@ -38,7 +38,7 @@ h1{
     color: white;
     text-decoration: none;
     width: 100px;
-    display: block;
+    display: block;    
     transition: .5s;
 }
 a:hover{
@@ -85,11 +85,11 @@ body{
     background-color:rgb(255, 238, 255);
 }
 /* ------------------------ Fila 1- ------------------------------*/
-.bandf1 {
+.mochif1 {
     display: flex;
     margin: 1em;
 }
-.bcorrea {
+.mochi1 {
     margin: 3em;
     margin-top: 4em;
     text-align: center;
@@ -97,7 +97,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.bestampada{
+.mochi2 {
     text-align: center;
     margin: 3em;
     margin-left: 4em;
@@ -106,7 +106,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.bblanca{
+.mochi3 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -114,7 +114,7 @@ body{
     background-color:#f3b9af;
     line-height: 5px;
 }
-.btachas{
+.mochi4 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -123,12 +123,12 @@ body{
     line-height: 5px;
 }
 /* ------------------------ Fila 2 -------------------------------*/
-.billf2 {
+.arosf2 {
     display: flex;
     margin: 1em;
     margin-top: -2em;
 }
-.bcebra {
+.mochi5 {
     margin: 3em;
     margin-top: 4em;
     text-align: center;
@@ -136,7 +136,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.bmill {
+.mochi6{
     text-align: center;
     margin: 3em;
     margin-left: 4em;
@@ -145,7 +145,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.bntachas {
+.mochi7 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -153,7 +153,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.bolo {
+.mochi8 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -162,12 +162,12 @@ body{
     line-height: 5px;
 }
 /*----------------------FILA 3------------------*/
-.billf3 {
+.arosf3 {
     display: flex;
     margin: 1em;
     margin-top: -2em;
 }
-.siete{
+.mochi9 {
     margin: 3em;
     margin-top: 4em;
     text-align: center;
@@ -175,7 +175,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.bmarron {
+.mochi10 {
     text-align: center;
     margin: 3em;
     margin-left: 4em;
@@ -184,7 +184,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.bclick {
+.mochi11 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -192,46 +192,7 @@ body{
     background-color: #f3b9af;
     line-height: 5px;
 }
-.bnegra {
-    text-align: center;
-    margin: 3em;
-    margin-top: 4em;
-    padding: 1%;
-    background-color: #f3b9af;
-    line-height: 5px;
-}
-/*----------------------FILA 4------------------*/
-.billf4 {
-    display: flex;
-    margin: 1em;
-    margin-top: -2em;
-}
-.love {
-    margin: 3em;
-    margin-top: 4em;
-    text-align: center;
-    padding: 1%;
-    background-color: #f3b9af;
-    line-height: 5px;
-}
-.roja {
-    text-align: center;
-    margin: 3em;
-    margin-left: 4em;
-    margin-top: 4em;
-    padding: 1%;
-    background-color: #f3b9af;
-    line-height: 5px;
-}
-.rosaolografica {
-    text-align: center;
-    margin: 3em;
-    margin-top: 4em;
-    padding: 1%;
-    background-color: #f3b9af;
-    line-height: 5px;
-}
-.Simplenegra {
+.mochi12 {
     text-align: center;
     margin: 3em;
     margin-top: 4em;
@@ -255,6 +216,9 @@ footer{
     margin-right: 2%;
     width: 12%;
     height: 22%;
+}
+.redes a{
+    padding: 3px;
 }
 .redes1{
     display: inline-flex;

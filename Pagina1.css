@@ -4,24 +4,26 @@
         background-color: #E9CFC2;
         padding: -2em;
         width: 100%;
-        display: block;
     }
     .header1 {
+        margin-left: -270px;
         width: 100%;
-        display: flex;
-        text-align: center;
     }
-    .logo img {
-        justify-content: initial;
+    .logo {
+        padding: 0;
+        margin-left: 20px;
+        text-align: left;
+    }
+    .carrito img {
+        justify-content: left;
+        margin-left: -30px;
     }
     .clima {
         display: none;
     }
     .productosbody {
-        margin-left: 40px;
-        margin-right: 30px;
         flex-direction: column;
-        justify-content: center;
+        text-align: center;
     }
     .anillos {
         margin: 0;
@@ -32,14 +34,13 @@
         background-color: #f1b6a7;
         border: none;
         color: rgb(0, 0, 0);
-        padding: 10px 20px;
+        padding: 7px 16px;
         text-align: center;
         font-family: 'Bridga Goldeni', sans-serif;
-        font-size: 16px;
-        margin: 4px 2px;
+        font-size: 10px;
+        margin: 4px -14px;
         opacity: 0.6;
         transition: 0.3s;
-        display: inline-block;
         text-decoration: none;
         cursor: pointer;
     }
@@ -56,8 +57,8 @@ body{
 }
 .pub {
     text-align: center;
-
 }
+
 /*------------------------------------divanillos-------------------------------------*/
 .productosbody {
     display: flex;
@@ -258,10 +259,17 @@ a {
 }
 .porfolio {
     margin-top: 1em;
-    margin-left: 60em;
-    text-align: center;
+    margin-right: 150px;
+    text-align: right;
 }
 .porfolio img {
     width: 20px;
     height: 20px;
 } 
+.copi p {
+    margin-right: 10px;
+}
+.copi {
+    margin-right: 100px;
+    text-align: right;
+}

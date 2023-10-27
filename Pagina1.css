@@ -1,29 +1,25 @@
 /*------------------------ CELULAR VERTICAL -----------------------------------------------------------*/
 @media (max-width: 575.98px) and (orientation: portrait) {
+    /*------------------------------------HEADER celular-------------------------------------*/
     header{
         background-color: #E9CFC2;
         padding: -2em;
         width: 100%;
     }
     .header1 {
-        margin-left: -270px;
+        margin-left: -135px;
         width: 100%;
+        justify-content: center;
     }
     .logo {
         padding: 0;
-        margin-left: 20px;
-        text-align: left;
-    }
-    .carrito img {
-        justify-content: left;
-        margin-left: -30px;
     }
     .clima {
         display: none;
     }
+    /*------------------------------------BODY celular-------------------------------------*/
     .productosbody {
-        flex-direction: column;
-        text-align: center;
+        justify-content: center;
     }
     .anillos {
         margin: 0;
@@ -125,7 +121,6 @@ header{
     background-color: #E9CFC2;
     padding: -2em;
     width: 100%;
-    display: block;
 }
 .header1 {
     display: flex;
@@ -136,12 +131,8 @@ header{
     height: 100px;
 }
 .logo{
-    margin-left: 280px; 
+    margin-left: 290px; 
     margin-top: 30px;
-}
-.carrito {
-    margin-left: 490px;
-    margin-top: 60px;
 }
 h1{
     font-family:'Bridga Goldeni', sans-serif; 

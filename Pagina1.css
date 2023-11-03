@@ -17,28 +17,21 @@
     .clima {
         display: none;
     }
-    /*------------------------------------BODY celular-------------------------------------*/
+    /*----------------BODY celular------------------*/
     .productosbody {
-        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 60px;
+        margin-right: 70px;
     }
     .anillos {
-        margin: 0;
-        padding: 2em;
+        position: relative ;
+        margin: 3em;
+        padding: 6em;
+        --opacidad-negro: 0.5;
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("anillo.jpg");
+        background-repeat: repeat;
+        background-size: cover ;
         text-align: center;
-    }
-    .button {
-        background-color: #f1b6a7;
-        border: none;
-        color: rgb(0, 0, 0);
-        padding: 7px 16px;
-        text-align: center;
-        font-family: 'Bridga Goldeni', sans-serif;
-        font-size: 10px;
-        margin: 4px -14px;
-        opacity: 0.6;
-        transition: 0.3s;
-        text-decoration: none;
-        cursor: pointer;
     }
 }
 /*------------------------------------BODY-------------------------------------*/
@@ -47,9 +40,6 @@ body{
     overflow-x: hidden;
     background-color:rgb(255, 238, 255);
     width: 100%;
-}
-.contador {
-    margin-left: 81em;
 }
 .pub {
     text-align: center;
@@ -199,6 +189,8 @@ a:hover{
 footer{
     background-color: #E9CFC2;
     padding: 3em;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 0;
     width: 100%;
 }
@@ -248,19 +240,38 @@ a {
     text-align: center;
     margin-left: 5em;
 }
-.porfolio {
-    margin-top: 1em;
+hr {
+    text-align: center;
+    margin-left: 150px;
     margin-right: 150px;
-    text-align: right;
+    height: 1px;
+    width: 70%;
+    background-color: black;
+}
+.footer2 {
+    margin-left: 250px;
+    margin-top: 5px;
+    display: flex;
+    position: relative;
+}
+.porfolio{
+    padding-right: 50px;
+    padding-left: 50px;
 }
 .porfolio img {
     width: 20px;
     height: 20px;
-} 
-.copi p {
-    margin-right: 10px;
 }
-.copi {
-    margin-right: 100px;
-    text-align: right;
+.copi2{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.copi1{
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: -17px;
+}
+.contador {
+    padding-right: 50px;
+    padding-left: 50px;
 }

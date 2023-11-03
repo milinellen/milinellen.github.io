@@ -20,9 +20,10 @@
     /*----------------BODY celular------------------*/
     .productosbody {
         flex-wrap: wrap;
-        margin-left: 60px;
-        margin-right: 70px;
+        justify-content: center;
+        margin-right: 40px;
     }
+
     .anillos {
         position: relative ;
         margin: 3em;

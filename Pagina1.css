@@ -19,35 +19,43 @@
     }
     /*----------------BODY celular------------------*/
     .productosbody {
+        justify-content: center;
         flex-direction: column;
         margin-right: 17px;
     }
     .anillos {
-        position: relative ;
         padding: 6em;
         --opacidad-negro: 0.5;
         background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("anillo.jpg");
-        background-repeat: repeat;
-        background-size: cover ;
         text-align: center;
     }
     .aros {
-        margin: 3em;
         padding: 7em;
         --opacidad-negro: 0.5;
         background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("Aros.jpg");
-        background-repeat:no-repeat;
-        background-size: cover;
         text-align: center;
     }
     .pulseras {
-        margin: 3em;
         padding: 7em;
         --opacidad-negro: 0.5;
         background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("pulseras.jpg");
-        background-repeat: no-repeat;
-        background-size: cover ;
         text-align: center;
+    }
+    .button {
+        background-color: #f1b6a7;
+        justify-content: center;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 16px 32px;
+        text-align: center;
+        font-family: 'Bridga Goldeni', sans-serif;
+        font-size: 16px;
+        margin: auto;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
     }
     .pub img {
         width: 350px;
@@ -62,10 +70,135 @@
         position: absolute;
         width: 50%;
     }
-    .redes{
-        margin-right: 700px;
+    hr {
+        text-align: center;
+        height: 1px;
+        margin-left: 7px;
+        width: 50%;
+        background-color: black;
     }
-    
+    .contactos h2 {
+        font-size: 20px;
+    }
+    .footer2 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: right;
+    }
+    .porfolio{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .porfolio img {
+        width: 20px;
+        height: 20px;
+    }
+    .copi2{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .copi1{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: -17px;
+    }
+    .contador {
+        padding-right: 10px;
+        padding-left: 10px;
+    } 
+}
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    header{
+        background-color: #E9CFC2;
+        padding: -2em;
+        width: 100%;
+    }
+    .header1 {
+        margin-left: -160px;
+        width: 100%;
+        justify-content: center;
+    }
+    .logo {
+        padding: 0;
+        margin-left: 7em;
+    }
+    .clima {
+        display: none;
+    }
+    /*----------------BODY Tablet------------------*/
+    .productosbody {
+        display: flex;
+        padding: 0;
+        position: relative;
+        flex-wrap: nowrap;
+        flex-direction: column
+    }
+    .anillos {
+        padding: 4em;
+        --opacidad-negro: 0.5;
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("anillo.jpg");
+        text-align: center;
+    }
+    .aros {
+        margin: 3em;
+        padding: 4em;
+        --opacidad-negro: 0.5;
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("Aros.jpg");
+        text-align: center;
+    }
+    .pulseras {
+        margin: 3em;
+        padding: 4em;
+        --opacidad-negro: 0.5;
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("pulseras.jpg");
+        text-align: center;
+    }
+    .pub img {
+        width: 600px;
+        height: 250px;
+    }
+
+    .contactos {
+        display: flex;
+        margin-left: 2em;
+        width: 100%;
+    }
+    .direccion {
+        text-align: center;
+    }
+    .redes {
+        margin-left: 5em;
+        margin-left: 0;
+    }
+    .contacto {
+        text-align: center;
+        margin-right: 20em;
+    }
+    hr {
+        margin-right: 55em;
+        height: 1px;
+        width: 50%;
+        background-color: black;
+    }
+    .footer2 {
+        margin-top: 5px;
+        margin-right: 20em;
+        display: inline-flex; 
+    }
+    .porfolio{
+        margin-left: 1em;
+    }
+    .copi2{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .copi1{
+        margin-left: 0;
+        margin-top: -17px;
+    }
+    .contador {
+        margin-right: 15em;
+    }
 }
 /*----------------------------*/
 body{
@@ -80,15 +213,14 @@ body{
 
 /*------------------------------------divanillos-------------------------------------*/
 .productosbody {
-    display: inline-flex;
-    margin-left: 40px;
-    margin-right: 70px;
+    display: flex;
+    justify-content: center;
 }
 .anillos {
     margin: 3em;
     padding: 7em;
     --opacidad-negro: 0.5;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("anillo.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("anillo2.jpeg");
     background-repeat: no-repeat;
     background-size: cover ;
     text-align: center;
@@ -97,7 +229,7 @@ body{
     margin: 3em;
     padding: 7em;
     --opacidad-negro: 0.5;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("Aros.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("aros2.jpeg");
     background-repeat:no-repeat;
     background-size: cover;
     text-align: center;
@@ -154,7 +286,7 @@ header{
     height: 100px;
 }
 .logo{
-    margin-left: 290px; 
+    margin-left: 410px; 
     margin-top: 30px;
 }
 h1{
@@ -253,8 +385,7 @@ a {
 }
 .contactos {
     display: flex;
-    margin-right: 5em;
-    margin-left: 5em;
+    justify-content: center;
     width: 100%;
 }
 .direccion {
@@ -274,18 +405,16 @@ a {
     margin-left: 5em;
 }
 hr {
-    text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    position: center;
     height: 1px;
     width: 70%;
     background-color: black;
 }
 .footer2 {
-    margin-left: 250px;
+    text-align: center;
+    margin-left: 30em;
     margin-top: 5px;
     display: flex;
-    position: relative;
 }
 .porfolio{
     padding-right: 50px;

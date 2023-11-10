@@ -77,6 +77,23 @@
         width: 50%;
         background-color: black;
     }
+    .contactos {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .direccion {
+        text-align: center;
+        margin-left: -3em;
+    }
+    .redes {
+        margin-left: 10em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .contacto {
+        margin-left: 5em;
+    }
     .contactos h2 {
         font-size: 20px;
     }
@@ -157,7 +174,6 @@
         width: 600px;
         height: 250px;
     }
-
     .contactos {
         display: flex;
         margin-left: 2em;
@@ -182,7 +198,7 @@
     }
     .footer2 {
         margin-top: 5px;
-        margin-right: 20em;
+        margin-right: 30em;
         display: inline-flex; 
     }
     .porfolio{
@@ -411,8 +427,7 @@ hr {
     background-color: black;
 }
 .footer2 {
-    text-align: center;
-    margin-left: 30em;
+    justify-content: center;
     margin-top: 5px;
     display: flex;
 }

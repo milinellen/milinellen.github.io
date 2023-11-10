@@ -1,0 +1,278 @@
+/*---------------------------------HEADER-------------------------------*/
+header{
+    background-color: #E9CFC2;
+    padding: -2em;
+}
+.header1 {
+    display: flex;
+}
+.logo img {
+    width: 250px;
+    height: 100px;
+}
+.logo{
+    margin-left: 550px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    font-family:'Bridga Goldeni', sans-serif;
+    text-align: center;
+    margin-top: 2em;
+}
+.nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+    padding: 0.5em;
+    margin: 0;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    transition: .5s;
+}
+a:hover{
+    color: #f3b9af;
+}
+.dropbtn{
+    background-color:#333;
+    color: white;
+    padding: 0.5em;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: #ffa18a;
+}
+/* ------------------------ BODY - ------------------------------*/
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color:rgb(255, 238, 255);
+}
+/* ------------------------ Fila 1- ------------------------------*/
+.riñof1 {
+    display: flex;
+    margin: 1em;
+}
+.riño1 {
+    margin: 3em;
+    margin-top: 4em;
+    text-align: center;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+.riño2 {
+    text-align: center;
+    margin: 3em;
+    margin-left: 4em;
+    margin-top: 4em;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+.riño3 {
+    text-align: center;
+    margin: 3em;
+    margin-top: 4em;
+    padding: 1%;
+    background-color:#f3b9af;
+    line-height: 5px;
+}
+.riño4 {
+    text-align: center;
+    margin: 3em;
+    margin-top: 4em;
+    padding: 1%;
+    background-color:#f3b9af;
+    line-height: 5px;
+}
+/* ------------------------ Fila 2 -------------------------------*/
+.riñof2 {
+    display: flex;
+    margin: 1em;
+    margin-top: -2em;
+}
+.riño5 {
+    margin: 3em;
+    margin-top: 4em;
+    text-align: center;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+.riño6 {
+    text-align: center;
+    margin: 3em;
+    margin-left: 4em;
+    margin-top: 4em;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+.riño7 {
+    text-align: center;
+    margin: 3em;
+    margin-top: 4em;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+.riño8 {
+    text-align: center;
+    margin: 3em;
+    margin-top: 4em;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+/*----------------------FILA 3------------------*/
+.riñof3 {
+    display: flex;
+    margin: 1em;
+    margin-top: -2em;
+}
+.riño9 {
+    margin: 3em;
+    margin-top: 4em;
+    text-align: center;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+.riño10 {
+    text-align: center;
+    margin: 3em;
+    margin-left: 4em;
+    margin-top: 4em;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+.riño11 {
+    text-align: center;
+    margin: 3em;
+    margin-top: 4em;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+.riño12 {
+    text-align: center;
+    margin: 3em;
+    margin-top: 4em;
+    padding: 1%;
+    background-color: #f3b9af;
+    line-height: 5px;
+}
+/*---------------------------------FOOTER---------------------------------*/s
+footer{
+    background-color: #E9CFC2;
+    padding: 3em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    width: 100%;
+}
+.img1{ 
+    width: 10%;
+    height: 20%;
+    margin-right: 2%;
+}
+.img2{
+    margin-right: 2%;
+    width: 12%;
+    height: 22%;
+}
+.redes a{
+    padding: 3px;
+}
+.redes1{
+    display: inline-flex;
+}
+.redes2{
+    display: flex;
+    align-items: center;
+}
+a {
+    color: #774115;
+    text-decoration: none;
+}
+.contactos {
+    display: flex;
+    margin-right: 5em;
+    margin-left: 5em;
+    width: 100%;
+}
+.direccion {
+    text-align: center;
+    margin-left: -3em;
+}
+.redes {
+    margin-left: 10em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.logos {
+    margin-left: -2.5em;
+}
+.contacto {
+    text-align: center;
+    margin-left: 5em;
+}
+hr {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 1px;
+    width: 70%;
+    background-color: black;
+}
+.footer2 {
+    margin-left: 310px;
+    margin-top: 5px;
+    display: flex;
+    position: relative;
+}
+.copi2{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.copi1{
+    padding-right: 80px;
+    padding-left: 150px;
+    margin-top: -17px;
+    color: #774115;
+}
+

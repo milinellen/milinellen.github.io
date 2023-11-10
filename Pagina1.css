@@ -19,14 +19,11 @@
     }
     /*----------------BODY celular------------------*/
     .productosbody {
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-right: 40px;
+        flex-direction: column;
+        margin-right: 17px;
     }
-
     .anillos {
         position: relative ;
-        margin: 3em;
         padding: 6em;
         --opacidad-negro: 0.5;
         background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("anillo.jpg");
@@ -34,8 +31,43 @@
         background-size: cover ;
         text-align: center;
     }
+    .aros {
+        margin: 3em;
+        padding: 7em;
+        --opacidad-negro: 0.5;
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("Aros.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    .pulseras {
+        margin: 3em;
+        padding: 7em;
+        --opacidad-negro: 0.5;
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("pulseras.jpg");
+        background-repeat: no-repeat;
+        background-size: cover ;
+        text-align: center;
+    }
+    .pub img {
+        width: 350px;
+        height: 190px;
+    }
+    /*----------------FOOTER------------------*/
+    footer{
+        background-color: #E9CFC2;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+        position: absolute;
+        width: 50%;
+    }
+    .redes{
+        margin-right: 700px;
+    }
+    
 }
-/*------------------------------------BODY-------------------------------------*/
+/*----------------------------*/
 body{
     margin: 0;
     overflow-x: hidden;
@@ -48,7 +80,7 @@ body{
 
 /*------------------------------------divanillos-------------------------------------*/
 .productosbody {
-    display: flex;
+    display: inline-flex;
     margin-left: 40px;
     margin-right: 70px;
 }

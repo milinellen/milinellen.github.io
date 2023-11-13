@@ -2,17 +2,14 @@
 header{
     background-color: #E9CFC2;
     padding: -2em;
-}
-.header1 {
-    display: flex;
+    padding-top: 1em;
 }
 .logo img {
     width: 250px;
     height: 100px;
 }
 .logo{
-    margin-left: 550px; 
-    margin-top: 20px;
+    text-align: center;
     margin-bottom: 20px;
 }
 h1{
@@ -82,6 +79,7 @@ body{
 }
 /* ------------------------ Fila 1- ------------------------------*/
 .mochif1 {
+    justify-content: center;
     display: flex;
     margin: 1em;
 }
@@ -120,9 +118,24 @@ body{
 }
 /* ------------------------ Fila 2 -------------------------------*/
 .arosf2 {
+    justify-content: center;
     display: flex;
     margin: 1em;
     margin-top: -2em;
+}
+.efecto{
+    position: relative;
+    display: inline-block;
+}
+.efecto img {
+    opacity: 0.5;
+}
+.texto {
+    color: black;
+    position: absolute;
+    font-size: 25px;
+    top: 135px;
+    left: 40px;
 }
 .mochi5 {
     margin: 3em;
@@ -159,6 +172,7 @@ body{
 }
 /*----------------------FILA 3------------------*/
 .arosf3 {
+    justify-content: center;
     display: flex;
     margin: 1em;
     margin-top: -2em;
@@ -199,7 +213,9 @@ body{
 /*---------------------------------FOOTER---------------------------------*/
 footer{
     background-color: #E9CFC2;
-    padding: 3em;
+    padding: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 0;
     width: 100%;
 }
@@ -227,21 +243,15 @@ a {
     color: #774115;
     text-decoration: none;
 }
-.redes a:hover{
-    color: #f35034;
-}
 .contactos {
     display: flex;
-    margin-right: 5em;
-    margin-left: 5em;
+    justify-content: center;
     width: 100%;
 }
 .direccion {
     text-align: center;
-    margin-left: -3em;
 }
 .redes {
-    margin-left: 10em;
     padding-left: 7em;
     padding-right: 7em;
 }
@@ -250,5 +260,25 @@ a {
 }
 .contacto {
     text-align: center;
-    margin-left: 5em;
+}
+hr {
+    justify-content: center;
+    height: 1px;
+    width: 70%;
+    background-color: black;
+}
+.footer2 {
+    justify-content: center;
+    margin-top: 5px;
+    display: flex;
+}
+.copi2{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.copi1{
+    padding-right: 80px;
+    padding-left: 150px;
+    margin-top: -17px;
+    color: #774115;
 }

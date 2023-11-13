@@ -1,17 +1,14 @@
-
 header{
     background-color: #E9CFC2;
     padding: -2em;
-}
-.header1 {
-    display: flex;
+    padding-top: 1em;
 }
 .logo img {
     width: 250px;
     height: 100px;
 }
 .logo{
-    margin-left: 550px; 
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -80,31 +77,25 @@ body{
     overflow-x: hidden;
     background-color:rgb(255, 238, 255);
 }
-.conjunto {
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
 .foto1 {
+    text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 60px;
     padding: 5px;
-    align-items: center;
 }
 .i1 {
     transition: transform .2s; 
-    padding-right: 20px;
-    padding-left: 20px ;
+    padding-right: 40px;
+    padding-left: 40px ;
 }
 .i1:hover{
     transform: scale(1.2);
 }
 .parrafo{
-    align-items: center;
+    justify-content: center;
     text-align: justify;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 p{
     font-family: 'Achemost', sans-serif;
@@ -112,7 +103,9 @@ p{
 /*---------------------------------FOOTER---------------------------------*/
 footer{
     background-color: #E9CFC2;
-    padding: 3em;
+    padding: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 0;
     width: 100%;
 }
@@ -140,21 +133,15 @@ a {
     color: #774115;
     text-decoration: none;
 }
-.redes a:hover{
-    color: #f35034;
-}
 .contactos {
+    justify-content: center;
     display: flex;
-    margin-right: 5em;
-    margin-left: 5em;
     width: 100%;
 }
 .direccion {
     text-align: center;
-    margin-left: -3em;
 }
 .redes {
-    margin-left: 10em;
     padding-left: 7em;
     padding-right: 7em;
 }
@@ -163,5 +150,28 @@ a {
 }
 .contacto {
     text-align: center;
-    margin-left: 5em;
+}
+hr {
+    justify-content: center;
+    height: 1px;
+    width: 70%;
+    background-color: black;
+}
+.footer2 {
+    justify-content: center;
+    margin-top: 5px;
+    display: flex;
+}
+.copi2{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.copi1{
+    padding-right: 80px;
+    padding-left: 150px;
+    margin-top: -17px;
+    color: #774115;
+}
+.copi p{
+    font-family:'Bridga Goldeni', sans-serif;
 }

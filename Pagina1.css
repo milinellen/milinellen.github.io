@@ -233,7 +233,7 @@ body{
     justify-content: center;
 }
 .anillos {
-    margin: 3em;
+    margin: 5em;
     padding: 7em;
     --opacidad-negro: 0.5;
     background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("anillo2.jpeg");
@@ -242,7 +242,7 @@ body{
     text-align: center;
 }
 .aros {
-    margin: 3em;
+    margin: 5em;
     padding: 7em;
     --opacidad-negro: 0.5;
     background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("aros2.jpeg");
@@ -251,7 +251,7 @@ body{
     text-align: center;
 }
 .pulseras {
-    margin: 3em;
+    margin: 5em;
     padding: 7em;
     --opacidad-negro: 0.5;
     background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("pulseras.jpg");
@@ -302,7 +302,7 @@ header{
     height: 100px;
 }
 .logo{
-    margin-left: 410px; 
+    margin-left: 528px; 
     margin-top: 30px;
 }
 h1{
@@ -363,7 +363,7 @@ a:hover{
     background-color: #ffa18a;
 }
 .clima {
-    margin:1em;
+    margin:2em;
     margin-top: 1em;
 }
 /*---------------------------------FOOTER---------------------------------*/

@@ -7,10 +7,10 @@
         padding-top: 1em;
     }
     h2 {
-        font-size: 18px;
+        font-size: 25px;
     }
     h3 {
-        font-size: 12px;
+        font-size: 19px;
     }
     .logo{
         text-align: center;
@@ -76,7 +76,7 @@
     .contactos {
         margin: 10px;
         justify-content: center;
-        display: flex;
+        flex-direction: column;
         width: 100%;
     }
     .direccion {
@@ -393,8 +393,8 @@ a {
 }
 .redes {
     text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 .contacto {
     text-align: center;

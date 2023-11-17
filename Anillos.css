@@ -6,6 +6,12 @@
         padding: -3em;
         padding-top: 1em;
     }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 12px;
+    }
     .logo{
         text-align: center;
         margin-bottom: 20px;
@@ -65,6 +71,24 @@
         flex-wrap: wrap;
         margin: 1em;
         margin-top: -2em;
+    }
+    /*---------------------------------FOOTER-------------------------------*/
+    .contactos {
+        margin: 10px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .direccion {
+        text-align: center;
+    }
+    .redes {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10PX;
+    }
+    .contacto {
+        text-align: center;
     }
 
 }
@@ -369,8 +393,8 @@ a {
 }
 .redes {
     text-align: center;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .contacto {
     text-align: center;

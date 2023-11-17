@@ -1,9 +1,4 @@
 @media (max-width: 575.98px) and (orientation: portrait) {
-    body{
-        margin: 0;
-        overflow-x: hidden;
-        background-color:rgb(255, 238, 255);
-    }
     .logo{
         text-align: center;
         margin-bottom: 20px;
@@ -320,6 +315,7 @@ body{
 }
 /*---------------------------------FOOTER---------------------------------*/
 footer{
+    overflow-x: hidden;
     background-color: #E9CFC2;
     padding: 1em;
     padding-top: 5px;

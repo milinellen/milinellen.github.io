@@ -347,9 +347,12 @@ footer{
 }
 .redes1{
     display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 }
 .redes2{
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
     align-items: center;
 }
 a {
@@ -365,8 +368,9 @@ a {
     text-align: center;
 }
 .redes {
-    padding-left: 7em;
-    padding-right: 7em;
+    text-align: center;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 .contacto {
     text-align: center;

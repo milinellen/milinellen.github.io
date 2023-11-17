@@ -1,4 +1,9 @@
 @media (max-width: 575.98px) and (orientation: portrait) {
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        background-color:rgb(255, 238, 255);
+    }
     .logo{
         text-align: center;
         margin-bottom: 20px;

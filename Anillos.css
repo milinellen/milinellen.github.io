@@ -1,3 +1,66 @@
+@media (max-width: 575.98px) and (orientation: portrait) {
+    .logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .anillosf1 {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1em;
+    }
+    .anillo_alas {
+        margin: 3em;
+        margin-top: 4em;
+        text-align: center;
+        padding: 1%;
+        background-color: #f3b9af;
+        line-height: 20px;
+    }
+    .anillo_mariposa {
+        text-align: center;
+        margin: 3em;
+        margin-left: 4em;
+        margin-top: 4em;
+        padding: 1%;
+        background-color: #f3b9af;
+        line-height: 5px;
+    }
+    .anillo_arbol {
+        text-align: center;
+        margin: 3em;
+        margin-top: 4em;
+        padding: 1%;
+        background-color:#f3b9af;
+        line-height: 5px;
+    }
+    .ojoturco{
+        text-align: center;
+        margin: 3em;
+        margin-top: 4em;
+        padding: 1%;
+        background-color:#f3b9af;
+        line-height: 5px;
+    }
+    .anillosf2 {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -2em;
+    }
+    .anillosf3 {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -2em;
+    }
+    .anillosf4 {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -2em;
+    }
+
+}
 /*---------------------------------HEADER-------------------------------*/
 header{
     background-color: #E9CFC2;

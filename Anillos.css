@@ -93,22 +93,26 @@
     .anillosf1 {
         justify-content: center;
         flex-wrap: wrap;
-        margin: 1em;
+        flex-direction: column;
+        margin: auto;
     }
     .anillosf2 {
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 1em;
         margin-top: -2em;
     }
     .anillosf3 {
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 1em;
         margin-top: -2em;
     }
     .anillosf4 {
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 1em;
         margin-top: -2em;
@@ -136,6 +140,7 @@
         display: flex;
     }
     .copi2{
+        padding-left: 1px;
         padding: 0.5em;
     }
     .copi1{
@@ -163,7 +168,7 @@ header{
 h1{
     font-family:'Bridga Goldeni', sans-serif;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 .nav ul{
     list-style: none;

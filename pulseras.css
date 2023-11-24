@@ -1,3 +1,152 @@
+@media (max-width: 575.98px) and (orientation: portrait) {
+    header{
+        background-color: #E9CFC2;
+        margin: 0;
+        padding: -3em;
+        padding-top: 1em;
+        width: 100%;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    .logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .bandf1{
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1em;
+    }
+    .billf2 {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -2em;
+    }
+    .billf3  {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -2em;
+    }
+    .billf4  {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -2em;
+    }
+    /*---------------------------------FOOTER-------------------------------*/
+    .contactos {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .direccion {
+        text-align: center;
+    }
+    .redes {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10PX;
+    }
+    .contacto {
+        text-align: center;
+    }
+    .footer2 {
+        justify-content: center;
+        margin-top: 5px;
+        display: flex;
+    }
+    .copi2{
+        padding: 0.5em;
+    }
+    .copi1{
+        padding: 0.5em;
+        margin-top: -17px;
+        color: #774115;
+    }
+}
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    header{
+        background-color: #E9CFC2;
+        overflow-x: hidden;
+        margin: 0;
+        padding: -3em;
+        padding-top: 1em;
+        width: 100%;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    .logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .bandf1 { 
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: auto;
+    }
+    .billf2 {
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -2em;
+    }
+    .billf3  {
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -2em;
+    }
+    .billf4  {
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -2em;
+    }
+    /*---------------------------------FOOTER-------------------------------*/
+    .contactos {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .direccion {
+        text-align: center;
+    }
+    .redes {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10PX;
+    }
+    .contacto {
+        text-align: center;
+    }
+    .footer2 {
+        justify-content: center;
+        margin-top: 5px;
+        display: flex;
+    }
+    .copi2{
+        padding: 0.5em;
+    }
+    .copi1{
+        padding: 0.5em;
+        margin-top: -17px;
+        color: #774115;
+    }
+}
 /*---------------------------------HEADER-------------------------------*/
 header{
     background-color: #E9CFC2;
@@ -254,7 +403,7 @@ body{
 /*---------------------------------FOOTER---------------------------------*/
 footer{
     background-color: #E9CFC2;
-    padding: 1em;
+    padding: 3em;
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 0;
@@ -275,9 +424,12 @@ footer{
 }
 .redes1{
     display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 }
 .redes2{
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
     align-items: center;
 }
 a {
@@ -312,7 +464,6 @@ hr {
     justify-content: center;
     margin-top: 5px;
     display: flex;
-    position: relative;
 }
 .copi2{
     padding-right: 70px;

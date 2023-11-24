@@ -1,7 +1,6 @@
 @media (max-width: 575.98px) and (orientation: portrait) {
     header{
         background-color: #E9CFC2;
-        overflow-x: hidden;
         margin: 0;
         padding: -3em;
         padding-top: 1em;
@@ -93,22 +92,26 @@
     .bandf1 {
         justify-content: center;
         flex-wrap: wrap;
-        margin: 1em;
+        flex-direction: column;
+        margin: auto;
     }
     .billf2 {
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 1em;
         margin-top: -2em;
     }
     .billf3 {
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 1em;
         margin-top: -2em;
     }
     .billf4 {
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 1em;
         margin-top: -2em;
@@ -230,9 +233,9 @@ body{
 }
 /* ------------------------ Fila 1- ------------------------------*/
 .bandf1 {
+    justify-content: center;
     display: flex;
     margin: 1em;
-    justify-content: center;
 }
 .bcorrea {
     margin: 3em;
@@ -283,10 +286,10 @@ body{
 }
 /* ------------------------ Fila 2 -------------------------------*/
 .billf2 {
+    justify-content: center;
     display: flex;
     margin: 1em;
     margin-top: -2em;
-    justify-content: center;
 }
 .bcebra {
     margin: 3em;
@@ -323,10 +326,10 @@ body{
 }
 /*----------------------FILA 3------------------*/
 .billf3 {
+    justify-content: center;
     display: flex;
     margin: 1em;
     margin-top: -2em;
-    justify-content: center;
 }
 .siete{
     margin: 3em;
